@@ -1,1 +1,10 @@
-Hello Devops team!
+Hello Devops team
+
+Jenkins ci-cd pipeline!
+---
+pipeline {
+   agent any 
+   tools {
+   stages{
+       steps {
+          stage..........
