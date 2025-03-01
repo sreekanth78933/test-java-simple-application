@@ -10,3 +10,5 @@ pipeline {
           stage..........
 stage ('build')
   sh 'mvn build'
+docker file:
+FROM ubuntu:ubuntu
