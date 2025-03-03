@@ -15,3 +15,4 @@ stage ('build')
   sh 'mvn build'
 docker file:
 FROM ubuntu:ubuntu
+from the repository-> the code is ok
