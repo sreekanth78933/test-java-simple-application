@@ -10,8 +10,4 @@ pipeline {
    tools {
    stages{
        steps {
-        
-stage ('build')
-  sh 'mvn build'
-docker file:
-FROM ubuntu:ubuntu
+
