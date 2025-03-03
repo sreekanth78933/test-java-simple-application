@@ -1,5 +1,8 @@
 Hello Devops team
-
+---
+- name: install java
+  hosts: localhost
+  become: true
 Jenkins ci-cd pipeline!
 ---
 pipeline {
